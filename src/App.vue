@@ -42,4 +42,10 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+
+.feed{
+  display: flex;
+  flex-flow: row-reverse wrap;
+  justify-content: space-around;
+}
 </style>
