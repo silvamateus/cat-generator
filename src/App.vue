@@ -6,12 +6,14 @@
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import ButtonCaller from './components/ButtonCaller.vue'
+import CatFeed from './components/CatFeed.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    ButtonCaller,
+    CatFeed
   }
 }
 </script>
