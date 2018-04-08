@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <button-caller @buttonCat="catImg"></button-caller>
+    <cat-feed :whiskasFeed="image"></cat-feed>
   </div>
 </template>
 
