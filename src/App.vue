@@ -1,7 +1,10 @@
 <template>
   <div id="app">
+    <header>How do you like your cats?</header>
+    <main class="feed">
     <button-caller @buttonCat="catImg"></button-caller>
     <cat-feed :whiskasFeed="image"></cat-feed>
+    </main>
   </div>
 </template>
 
