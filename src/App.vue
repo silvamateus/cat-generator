@@ -14,6 +14,13 @@ export default {
   components: {
     ButtonCaller,
     CatFeed
+  },
+  methods: {
+    catImg: function() {
+      this.image = ''
+      fetch('https://cataas.com/c')
+      .then(res =>  this.image = res.url)
+    }
   }
 }
 </script>
