@@ -11,6 +11,11 @@ import CatFeed from './components/CatFeed.vue'
 
 export default {
   name: 'app',
+  data(){
+    return {
+      image: ''
+    }
+  },
   components: {
     ButtonCaller,
     CatFeed
