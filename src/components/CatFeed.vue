@@ -1,6 +1,5 @@
 <template>
   <section>
-      <header>How do you like your cats?</header>
       <div>
           <img :src="whiskasFeed" :alt="whiskasFeed">
       </div>
@@ -15,6 +14,7 @@ export default {
   }
 }
 </script>
+
 
 <style lang="scss" scoped>
   section{
