@@ -15,11 +15,12 @@ export default {
 
 
 <style lang="scss" scoped>
-  section{
-    width: 30rem;
+  div{
+    width: 480px;
+    height: 480px;
   }
   img{
-    width: 480px;
-    height: 400px;
+    width: 100%;
+    height: 100%;
   }
 </style>
