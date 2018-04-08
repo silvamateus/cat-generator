@@ -18,4 +18,8 @@ export default {
   section{
     width: 30rem;
   }
+  img{
+    width: 480px;
+    height: 400px;
+  }
 </style>
