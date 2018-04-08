@@ -1,9 +1,7 @@
 <template>
-  <section>
-      <div>
-          <img :src="whiskasFeed" :alt="whiskasFeed">
-      </div>
-  </section>
+<div>
+    <img :src="whiskasFeed" :alt="whiskasFeed">
+</div>
 </template>
 
 <script>
