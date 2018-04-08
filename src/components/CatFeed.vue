@@ -15,3 +15,9 @@ export default {
   }
 }
 </script>
+
+<style lang="scss" scoped>
+  section{
+    width: 30rem;
+  }
+</style>
