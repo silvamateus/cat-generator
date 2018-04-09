@@ -11,4 +11,4 @@
 
 ### Build
 - Run `yarn build`
-- Serve **/dist** files in a http server
+
