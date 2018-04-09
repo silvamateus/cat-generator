@@ -39,7 +39,8 @@ export default {
     margin-bottom: 1rem;
   }
   img{
-    width: 100%;
-    height: 100%;
+    width: 420px;
+    max-height: 420px;
+    margin-bottom: 1rem;
   }
 </style>
