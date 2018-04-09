@@ -11,7 +11,7 @@
 export default {
   name: 'CatFeed',
   props:{
-    'whiskasFeed' : String
+    'whiskasFeed' : Array
   }
 }
 </script>
