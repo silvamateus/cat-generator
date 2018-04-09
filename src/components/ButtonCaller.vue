@@ -1,13 +1,18 @@
 <template>
-  <button  @click="callCat" :disabled="loading">
-    <i v-if="isLoading" class="fas fa-spinner"></i>
-    <span v-else>Adicione Gatos</span>
+  <button class="cat-btn" @click="callCat" :disabled="loading">
+    <i class="fas fa-spinner fa-spin"></i>
+    <span>{{buttonText}}</span>
   </button>
 </template>
 
 <script>
 export default {
   name: 'ButtonCaller',
+  data(){
+    return {
+      buttonText: 'Adiciona Gatos'
+    }
+  },
   props: {
     loading: Boolean
   },
@@ -15,16 +20,25 @@ export default {
     callCat: function(e){
       this.$emit('buttonCat', e)
     }
+  },
+  watch: {
+    loading: function(val) {
+      val?
+      this.buttonText = 'Loading...'
+      :this.buttonText = 'Adicione Gatos'
+    }
   }
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-  button{
-    text-align: center;
+  .cat-btn{
+    display: flex;
+    text-align: right;
     white-space: nowrap;
     max-width: 480px;
+    min-width: 480px;
     padding-top: 3rem;
     padding-bottom: 3rem;
     padding-left: calc(389px/2);
@@ -41,4 +55,17 @@ export default {
       opacity: .7;
     }
   }
+
+.cat-btn .fa-spinner {
+  display: none;
+}
+.cat-btn[disabled] .fa-spinner {
+  display: block;
+  margin-right: 4px;
+}
+
+.fa-spinner {
+  transition: all 1;
+  //transform: 
+}
 </style>
