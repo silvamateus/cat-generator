@@ -1,6 +1,9 @@
 <template>
-<div>
-    <img :src="whiskasFeed" :alt="whiskasFeed">
+<div id="cats">
+  <div class="cat-box" v-for="(whisk,id) in whiskasFeed" :key="id">
+    <img :src="whisk" :alt="whisk">
+    <i class="fas fa-heart"></i>
+</div>
 </div>
 </template>
 
