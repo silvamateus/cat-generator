@@ -32,6 +32,12 @@ export default {
     transition: border .3s;
     border: transparent;
   }
+  }
+  .fa-heart {
+    color: rgb(255, 0, 0);
+    font-size: 30px;
+    margin-bottom: 1rem;
+  }
   img{
     width: 100%;
     height: 100%;
