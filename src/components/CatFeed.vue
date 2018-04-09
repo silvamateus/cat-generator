@@ -20,38 +20,38 @@ export default {
 <style lang="scss" scoped>
   #cats {
     max-width: 480px;
-    box-shadow: 0 1rem 2rem 0 rgba(240, 110, 110, 0.2), 0 1rem 2rem 0 rgba(0, 0, 0, 0.19);
-    background-color: #bdc3c7;
   }
 
-  .cat-box, img, .fa-heart{
+  img{
     transition: opacity 1s;
   }
   .cat-box {
-    padding-top: 1rem;
+    margin-top: 2rem;
+    padding-top: 3rem;
     max-height: 500px;
     display: flex;
     flex-direction: column;
     align-items: center;
     transition: border .3s;
     border: transparent;
-    
-    &:hover{
-      border-style: solid;
-      border-color: #fff;
-      border-width:  0 1px 1px;
-    }
+    background-color: #eee;
+    box-shadow: 0 1px 2px 0 rgba(240, 110, 110, 0.2), 0 1px 2px 0 rgba(0, 0, 0, 0.19);
+
     & img:hover {
       opacity: .8;
     }
     & .fa-heart:hover{
-      opacity: .8;
+      color: #c42020;
     }
   }
   .fa-heart {
-    color: rgb(255, 0, 0);
+    color: #524f4f;
     font-size: 30px;
-    margin-bottom: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    margin-right: 2rem;
+    align-self: flex-end;
+    transition: color .5s;
   }
   img{
     width: 420px;
