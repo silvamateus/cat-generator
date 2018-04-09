@@ -51,7 +51,7 @@ export default {
     margin-bottom: 3rem;
     margin-right: 2rem;
     align-self: flex-end;
-    transition: color .5s;
+    transition: all 1s ease-in-out;
   }
   img{
     width: 420px;
