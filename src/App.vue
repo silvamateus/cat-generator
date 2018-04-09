@@ -1,6 +1,9 @@
 <template>
   <div id="app">
-    <header>How do you like your cats?</header>
+    <header id="cat-header">
+      <img src="./assets/logo-1.svg" alt="">
+      <h1>Gerador de gatos</h1>
+    </header>
     <main class="feed">
       <button-caller @buttonCat="catImg"></button-caller>
       <cat-feed :whiskasFeed="image"></cat-feed>
@@ -39,8 +42,17 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+#cat-header {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  & > img {
+    flex-basis: 15%;
+  }
+  & > h1 {
+    flex-basis: 68%;
+  }
+
 }
 
 .feed{
