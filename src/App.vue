@@ -8,6 +8,10 @@
       <button-caller @buttonCat="catImg"></button-caller>
       <cat-feed :whiskasFeed="image"></cat-feed>
     </main>
+    <footer>
+      <i class="far fa-copyright"></i>
+      <p>2018 Cat Generator</p>
+    </footer>
   </div>
 </template>
 
