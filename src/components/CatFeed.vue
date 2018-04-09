@@ -18,9 +18,11 @@ export default {
 
 
 <style lang="scss" scoped>
-  div{
-    width: 480px;
-    height: 480px;
+  #cats {
+    max-width: 480px;
+    box-shadow: 0 1rem 2rem 0 rgba(240, 110, 110, 0.2), 0 1rem 2rem 0 rgba(0, 0, 0, 0.19);
+    background-color: #bdc3c7;
+  }
   }
   img{
     width: 100%;
