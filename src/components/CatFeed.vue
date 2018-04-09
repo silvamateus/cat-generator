@@ -3,7 +3,7 @@
   <div class="cat-box" v-for="(whisk,id) in whiskasFeed" :key="id">
     <img :src="whisk" :alt="whisk">
     <i class="fas fa-heart"></i>
-</div>
+  </div>
 </div>
 </template>
 
@@ -46,7 +46,7 @@ export default {
     }
     & .fa-heart:hover{
       opacity: .8;
-  }
+    }
   }
   .fa-heart {
     color: rgb(255, 0, 0);

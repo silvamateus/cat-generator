@@ -2,7 +2,6 @@
   <div id="app">
     <header id="cat-header">
       <img src="./assets/logo-1.svg" alt="">
-      <h1>Gerador de gatos</h1>
     </header>
     <main class="feed">
       <button-caller :loading="isLoading" @buttonCat="catImg"></button-caller>
