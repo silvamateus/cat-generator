@@ -28,9 +28,13 @@ export default {
   },
   methods: {
     catImg: function() {
-      this.image = ''
+      this.isLoading = true
       fetch('https://cataas.com/c')
-      .then(res =>  this.image = res.url)
+      .then(res =>  res.blob())
+      .then(blob => {
+        this.images.push(URL.createObjectURL(blob))
+      })
+      .finally(setTimeout(() => this.isLoading = false, 1000))
     }
   }
 }
