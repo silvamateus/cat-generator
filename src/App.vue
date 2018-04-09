@@ -84,8 +84,11 @@ footer {
 }
 
 .feed{
-  display: flex;
-  flex-flow: row-reverse wrap;
-  justify-content: space-around;
+  padding-top: 10rem;
+  padding-bottom: 1rem;
+  display: grid;
+  justify-content: center;
+  align-content:flex-start;
+  min-height: 80vh;
 }
 </style>
