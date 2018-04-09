@@ -23,6 +23,14 @@ export default {
     box-shadow: 0 1rem 2rem 0 rgba(240, 110, 110, 0.2), 0 1rem 2rem 0 rgba(0, 0, 0, 0.19);
     background-color: #bdc3c7;
   }
+  .cat-box {
+    padding-top: 1rem;
+    max-height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: border .3s;
+    border: transparent;
   }
   img{
     width: 100%;
