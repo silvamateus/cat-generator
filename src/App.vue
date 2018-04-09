@@ -51,6 +51,11 @@ export default {
   align-items: center;
   padding: 1rem;
 
+footer {
+  position: relative;
+  bottom: -4rem;
+  width:100%;
+  word-spacing: 1px;
 }
 #cat-header {
   position: fixed;
