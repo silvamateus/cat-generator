@@ -42,6 +42,16 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
+}
+#cat-header, footer {
+  background-color: #fefefe;
+  color: #aaa;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1rem;
+
+}
 #cat-header {
   position: fixed;
   width: 100%;
