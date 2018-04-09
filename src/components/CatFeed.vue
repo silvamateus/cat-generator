@@ -31,6 +31,17 @@ export default {
     align-items: center;
     transition: border .3s;
     border: transparent;
+    
+    &:hover{
+      border-style: solid;
+      border-color: #fff;
+      border-width:  0 1px 1px;
+    }
+    & img:hover {
+      opacity: .8;
+    }
+    & .fa-heart:hover{
+      opacity: .8;
   }
   }
   .fa-heart {
