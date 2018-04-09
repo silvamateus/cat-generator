@@ -41,11 +41,13 @@ export default {
 </script>
 
 <style lang="scss">
+* {
+  box-sizing: border-box;
+}
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   text-align: center;
+  font-family: 'Roboto', sans-serif;
+
 }
 #cat-header, footer {
   background-color: #fefefe;
