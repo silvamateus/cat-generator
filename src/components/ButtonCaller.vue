@@ -1,10 +1,16 @@
 <template>
-  <button  @click="callCat">Olar</button>
+  <button  @click="callCat" :disabled="loading">
+    <i v-if="isLoading" class="fas fa-spinner"></i>
+    <span v-else>Adicione Gatos</span>
+  </button>
 </template>
 
 <script>
 export default {
   name: 'ButtonCaller',
+  props: {
+    loading: Boolean
+  },
   methods:{
     callCat: function(e){
       this.$emit('buttonCat', e)
