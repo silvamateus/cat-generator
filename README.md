@@ -10,10 +10,6 @@
 - Run `yarn install`
 - Run `yarn serve`
 
-### E2E Tests
-- Install [Google Chrome](https://www.google.com.br/chrome)
-- Run `yarn e2e`
-
 ### Lint
 - Run `yarn lint [--fix]`
 
