@@ -35,24 +35,25 @@ export default {
 <style scoped lang="scss">
   .cat-btn{
     display: flex;
-    text-align: right;
+    font-size: 27px;
     white-space: nowrap;
     max-width: 480px;
     min-width: 480px;
     padding-top: 3rem;
     padding-bottom: 3rem;
-    padding-left: calc(389px/2);
+    padding-left: calc(310px/2);
     padding-right: calc(400px/2);
     border: 0;
     background-color: #03A678;
     color: #ECF0F1;
-    transition: opacity 1s;
+    box-shadow: 0 1px 2px 0 rgba(240, 110, 110, 0.2), 0 1px 2px 0 rgba(0, 0, 0, 0.19);
+    transition: opacity 1s ease-in-out;
     &:disabled, &:disabled:hover {
       cursor: not-allowed;
       opacity: .4;
     }
     &:hover {
-      opacity: .7;
+      opacity: .6;
     }
   }
 
