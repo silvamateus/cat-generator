@@ -88,7 +88,7 @@ footer {
 }
 
 .feed{
-  padding-top: 10rem;
+  padding-top: 9rem;
   padding-bottom: 1rem;
   display: grid;
   justify-content: center;
