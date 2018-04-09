@@ -5,8 +5,8 @@
       <h1>Gerador de gatos</h1>
     </header>
     <main class="feed">
-      <button-caller @buttonCat="catImg"></button-caller>
-      <cat-feed :whiskasFeed="image"></cat-feed>
+      <button-caller :loading="isLoading" @buttonCat="catImg"></button-caller>
+      <cat-feed :whiskasFeed="images"></cat-feed>
     </main>
     <footer>
       <i class="far fa-copyright"></i>
@@ -23,7 +23,8 @@ export default {
   name: 'app',
   data(){
     return {
-      image: ''
+      images: [],
+      isLoading: false
     }
   },
   components: {
