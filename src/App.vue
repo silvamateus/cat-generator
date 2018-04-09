@@ -51,6 +51,13 @@ export default {
   align-items: center;
   padding: 1rem;
 
+}
+body {
+  margin: 0;
+  background-color: #D2D7D3;
+  color: #eee;
+  height: 100%;
+}
 footer {
   position: relative;
   bottom: -4rem;
