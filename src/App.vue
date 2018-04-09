@@ -74,6 +74,9 @@ footer {
   width:100%;
   word-spacing: 1px;
 }
+.fa-copyright{
+    margin-right: 10px;
+  }
 #cat-header {
   position: fixed;
   width: 100%;
